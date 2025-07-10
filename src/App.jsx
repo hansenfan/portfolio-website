@@ -7,36 +7,40 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-        <div
-          className="container"
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <h2>Hansen Fan</h2>
-          <ul
+        <div className="container">
+          <div
             style={{
               display: "flex",
-              gap: "2rem",
-              listStyle: "none",
-              margin: 0,
-              padding: 0,
+              justifyContent: "space-between",
+              alignItems: "center",
+              width: "100%",
             }}
           >
-            <li>
-              <button onClick={() => setActiveTab("experience")}>
-                Experience
-              </button>
-            </li>
-            <li>
-              <button onClick={() => setActiveTab("projects")}>Projects</button>
-            </li>
-            <li>
-              <button onClick={() => setActiveTab("life")}>Life</button>
-            </li>
-          </ul>
+            <h2>Hansen Fan</h2>
+            <ul
+              style={{
+                display: "flex",
+                gap: "2.5rem",
+                listStyle: "none",
+                margin: 0,
+                padding: 0,
+              }}
+            >
+              <li>
+                <button onClick={() => setActiveTab("experience")}>
+                  Experience
+                </button>
+              </li>
+              <li>
+                <button onClick={() => setActiveTab("projects")}>
+                  Projects
+                </button>
+              </li>
+              <li>
+                <button onClick={() => setActiveTab("life")}>Life</button>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <main>
