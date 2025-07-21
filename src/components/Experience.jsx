@@ -34,7 +34,7 @@ function Experience() {
       company: "Central Bank of Armenia",
       duration: "June 2025 - Present",
       description:
-        "Built features for web applications using React and Node.js",
+        "Researching the impact of natural disasters on non-performing loans in Armenia",
       completed: true,
     },
     {
@@ -42,7 +42,8 @@ function Experience() {
       title: "Undergraduate Researcher",
       company: "MIT Sloan School of Management",
       duration: "June 2025- Present",
-      description: "Working on machine learning algorithms and data analysis",
+      description:
+        "Building a multilatent transformer model for the Time MMD Dataset",
       completed: true,
     },
     {
@@ -51,15 +52,7 @@ function Experience() {
       company: "MIT Media Lab",
       duration: "January 2025 - February 2025",
       description:
-        "Pursuing degree in Computer Science, Mathematics, and Finance",
-      completed: true,
-    },
-    {
-      id: 4,
-      title: "Finance Intern",
-      company: "Shetland Advisors",
-      duration: "June 2024 - August 2024",
-      description: "Leading team practices and coordinating game strategies",
+        "Conducted machine learning fairness analysis on the Brixia COVID-19 X-ray dataset",
       completed: true,
     },
   ];

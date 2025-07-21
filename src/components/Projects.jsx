@@ -32,18 +32,43 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "AI Chat Application",
+      title: "Portfolio Website",
       description:
-        "Built a real-time chat application using React, Node.js, and OpenAI API. Features include message history, user authentication, and intelligent responses.",
-      technologies: ["React", "Node.js", "OpenAI API", "Socket.io", "MongoDB"],
-      github: "https://github.com/hansenfan/ai-chat",
-      live: "https://ai-chat-demo.vercel.app",
+        "Personal portfolio website built with React and Vite. Features responsive design and smooth scrolling navigation.",
+      technologies: ["React", "Vite", "CSS3", "JavaScript", "React Icons"],
+      github: "https://github.com/hansenfan/portfolio-website",
+      live: null,
     },
     {
       id: 2,
-      title: "Portfolio Website",
+      title: "Boldly",
       description:
-        "Modern portfolio website built with React and Vite. Features smooth animations, responsive design, and clean UI/UX.",
+        "AI-powered challenge generator that creates personalized challenges using OpenAI API to push people out of their comfort zone.",
+      technologies: [
+        "React",
+        "Node.js",
+        "OpenAI API",
+        "Tailwind CSS",
+        "MongoDB",
+      ],
+      github:
+        "https://github.com/weblab-class/jackwang1216-hansenfan-JerryLiu06",
+      live: null,
+    },
+    {
+      id: 3,
+      title: "Data Analysis Projects",
+      description:
+        "Various data analysis and machine learning projects using Python, focusing on statistical modeling and predictive analytics.",
+      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+      github: "https://github.com/hansenfan/data-projects",
+      live: null,
+    },
+    {
+      id: 4,
+      title: "Moda Studios Website",
+      description:
+        "Client website for Moda Studios built with React and Vite. Features modern design and responsive layout.",
       technologies: [
         "React",
         "Vite",
@@ -51,26 +76,38 @@ function Projects() {
         "JavaScript",
         "Responsive Design",
       ],
-      github: "https://github.com/hansenfan/portfolio",
-      live: "https://hansenfan.dev",
-    },
-    {
-      id: 3,
-      title: "Machine Learning Model",
-      description:
-        "Developed a neural network for image classification using TensorFlow and Python. Achieved 95% accuracy on test dataset.",
-      technologies: ["Python", "TensorFlow", "NumPy", "Pandas", "Scikit-learn"],
-      github: "https://github.com/hansenfan/ml-model",
+      github: "https://github.com/hansenfan/moda-studios",
       live: null,
     },
     {
-      id: 4,
-      title: "E-commerce Platform",
+      id: 5,
+      title: "NBA ML Model",
       description:
-        "Full-stack e-commerce platform with payment integration, user management, and admin dashboard.",
-      technologies: ["React", "Express.js", "Stripe", "PostgreSQL", "Redux"],
-      github: "https://github.com/hansenfan/ecommerce",
-      live: "https://ecommerce-demo.vercel.app",
+        "Machine learning model for NBA game prediction and trade impact analysis using PyTorch and Spring Boot.",
+      technologies: [
+        "PyTorch",
+        "Java",
+        "Spring Boot",
+        "Python",
+        "Machine Learning",
+      ],
+      github: "https://github.com/hansenfan/nba-ml-model",
+      live: null,
+    },
+    {
+      id: 6,
+      title: "Modelr",
+      description:
+        "Financial modeling platform that automates DCF analysis and financial modeling processes.",
+      technologies: [
+        "Python",
+        "React",
+        "Node.js",
+        "Financial APIs",
+        "Excel Integration",
+      ],
+      github: "https://github.com/hansenfan/modelr",
+      live: null,
     },
   ];
 
