@@ -91,16 +91,17 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="project-links">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="project-link"
-                  >
-                    <FaGithub />
-                  </a>
-                </div>
+                {/* Move project-links outside of technologies and at the bottom */}
+              </div>
+              <div className="project-links">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </div>
           ))}

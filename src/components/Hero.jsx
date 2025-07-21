@@ -8,9 +8,9 @@ function Hero() {
         <div className="hero-content">
           <h1>Hansen Fan</h1>
           <p>
-            Hi! I'm a student-athlete at MIT planning to study computer science
-            with minors in mathematics and finance. In my free time, I like to
-            play volleyball, try new foods, and practice the cello.
+            Hi! I'm a student-athlete at MIT studying computer science with
+            minors in mathematics and finance. In my free time, I like to play
+            volleyball, try new foods, and practice the cello.
           </p>
           <div className="hero-social-links">
             <a
@@ -31,27 +31,15 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="hero-image">
-          <img
-            src="/Images/profile.PNG"
-            alt="Hansen Fan"
-            className="profile-picture"
-          />
-          <img
-            src="/Images/profile.PNG"
-            alt="Hansen Fan"
-            className="profile-picture"
-          />
-          <img
-            src="/Images/profile.PNG"
-            alt="Hansen Fan"
-            className="profile-picture"
-          />
-          <img
-            src="/Images/profile.PNG"
-            alt="Hansen Fan"
-            className="profile-picture"
-          />
+        {/* Image Card Wrapper for better alignment and style */}
+        <div className="hero-image-card">
+          <div className="hero-image">
+            <img
+              src="/Images/MediaDay.png"
+              alt="Profile Picture"
+              className="profile-picture"
+            />
+          </div>
         </div>
       </div>
     </section>
