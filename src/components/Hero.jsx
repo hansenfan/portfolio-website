@@ -35,7 +35,7 @@ function Hero() {
         <div className="hero-image-card">
           <div className="hero-image">
             <img
-              src="/Images/MediaDay.png"
+              src={`${import.meta.env.BASE_URL}images/MediaDay.png`}
               alt="Profile Picture"
               className="profile-picture"
             />
