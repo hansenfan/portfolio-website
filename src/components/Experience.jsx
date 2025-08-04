@@ -43,7 +43,7 @@ function Experience() {
       company: "MIT Sloan School of Management",
       duration: "June 2025- Present",
       description:
-        "Building a multilatent transformer model for the Time MMD Dataset",
+        "Building a temporal graph neural network for modeling how market events affect assets and their relationships",
       completed: true,
     },
     {
