@@ -45,11 +45,12 @@ function Projects() {
       description:
         "AI-powered challenge generator that creates personalized challenges using OpenAI API to push people out of their comfort zone.",
       technologies: [
-        "React",
-        "Node.js",
-        "OpenAI API",
+        "React 18",
+        "Express.js",
+        "Socket.io",
+        "MongoDB/Mongoose",
         "Tailwind CSS",
-        "MongoDB",
+        "OpenAI API",
       ],
       github:
         "https://github.com/weblab-class/jackwang1216-hansenfan-JerryLiu06",
@@ -57,33 +58,9 @@ function Projects() {
     },
     {
       id: 3,
-      title: "Data Analysis Projects",
+      title: "NBA Analytics Tool",
       description:
-        "Various data analysis and machine learning projects using Python, focusing on statistical modeling and predictive analytics.",
-      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
-      github: "https://github.com/hansenfan/data-projects",
-      live: null,
-    },
-    {
-      id: 4,
-      title: "Moda Studios Website",
-      description:
-        "Client website for Moda Studios built with React and Vite. Features modern design and responsive layout.",
-      technologies: [
-        "React",
-        "Vite",
-        "CSS3",
-        "JavaScript",
-        "Responsive Design",
-      ],
-      github: "https://github.com/hansenfan/moda-studios",
-      live: null,
-    },
-    {
-      id: 5,
-      title: "NBA ML Model",
-      description:
-        "Machine learning model for NBA game prediction and trade impact analysis using PyTorch and Spring Boot.",
+        "Basketball analytics model for NBA game prediction using PyTorch and Spring Boot.",
       technologies: [
         "PyTorch",
         "Java",
@@ -91,21 +68,25 @@ function Projects() {
         "Python",
         "Machine Learning",
       ],
-      github: "https://github.com/hansenfan/nba-ml-model",
+      github: "https://github.com/hansenfan/nba-predictor",
       live: null,
     },
     {
-      id: 6,
-      title: "Modelr",
+      id: 4,
+      title: "Moda Studios Website (Coming Soon)",
+      description:
+        "Client website for Moda Studios built with React and Vite. Features modern design and responsive layout.",
+      technologies: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+      github: "https://github.com/hansenfan/moda-studios",
+      live: null,
+    },
+
+    {
+      id: 5,
+      title: "Modelr (Coming Soon)",
       description:
         "Financial modeling platform that automates DCF analysis and financial modeling processes.",
-      technologies: [
-        "Python",
-        "React",
-        "Node.js",
-        "Financial APIs",
-        "Excel Integration",
-      ],
+      technologies: ["Python", "React", "Node.js"],
       github: "https://github.com/hansenfan/modelr",
       live: null,
     },
