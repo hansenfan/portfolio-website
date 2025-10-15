@@ -30,24 +30,33 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Data Science Intern",
+      title: "Undergraduate Researcher",
+      company: "MIT Mission Innovation X",
+      duration: "October 2025 - Present",
+      description:
+        "Dual use deep learning and computer vision research in collaboration with the US Air Force",
+      completed: true,
+    },
+    {
+      id: 2,
+      title: "Software Engineer Intern",
       company: "Central Bank of Armenia",
-      duration: "June 2025 - Present",
+      duration: "June 2025 - August 2025",
       description:
         "Researching the impact of natural disasters on non-performing loans in Armenia",
       completed: true,
     },
     {
-      id: 2,
+      id: 3,
       title: "Undergraduate Researcher",
       company: "MIT Sloan School of Management",
-      duration: "June 2025- Present",
+      duration: "June 2025- August 2025",
       description:
         "Building a graph neural network for modeling how market events affect assets and their relationships",
       completed: true,
     },
     {
-      id: 3,
+      id: 4,
       title: "Undergraduate Researcher",
       company: "MIT Media Lab",
       duration: "January 2025 - February 2025",

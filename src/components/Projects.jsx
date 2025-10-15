@@ -45,7 +45,7 @@ function Projects() {
       description:
         "AI-powered challenge generator that creates personalized challenges using OpenAI API to push people out of their comfort zone.",
       technologies: [
-        "React 18",
+        "React",
         "Express.js",
         "Socket.io",
         "MongoDB/Mongoose",
