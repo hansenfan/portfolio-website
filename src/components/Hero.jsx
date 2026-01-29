@@ -4,7 +4,7 @@ function Hero() {
   return (
     <main className="main">
       <img 
-        src="/images/Media Day 2026.png" 
+        src={`${import.meta.env.BASE_URL}images/MIT MVB Media Day.png`}
         alt="Hansen Fan"
         className="profile-image"
       />
