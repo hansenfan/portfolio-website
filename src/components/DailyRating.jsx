@@ -7,6 +7,87 @@ function DailyRating() {
         <section className="page-section daily-journal">
           <h2 className="section-title">July 2026</h2>
           <div className="entry-list">
+
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/10/26</span>
+                <span className="entry-score score-5">8/10</span>
+              </div>
+              <p className="entry-text">
+                Had two good ahh bagels. Thrifting is not as good as they claim
+              </p>
+            </article>
+
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/10/26</span>
+                <span className="entry-score score-5">7/10</span>
+              </div>
+              <p className="entry-text">
+                My coworkers are chillers
+              </p>
+            </article>
+
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/9/26</span>
+                <span className="entry-score score-5">1/10</span>
+              </div>
+              <p className="entry-text">
+                Unbelievably chud day. Took a lot of Ls
+              </p>
+            </article>
+
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/8/26</span>
+                <span className="entry-score score-5">6/10</span>
+              </div>
+              <p className="entry-text">
+                Just solid idk
+              </p>
+            </article>
+
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/7/26</span>
+                <span className="entry-score score-5">7/10</span>
+              </div>
+              <p className="entry-text">
+                Back on da lifts, had a really good lunch
+              </p>
+            </article>
+
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/6/26</span>
+                <span className="entry-score score-5">6/10</span>
+              </div>
+              <p className="entry-text">
+                Average day. I swear my cooking is getting worse
+              </p>
+            </article>
+
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/5/26</span>
+                <span className="entry-score score-5">7.5/10</span>
+              </div>
+              <p className="entry-text">
+                Museums are much more interesting when they're free. Don't think I can eat fries for a month
+              </p>
+            </article>
+            <article className="entry-item">
+              <div className="entry-meta">
+                <span className="entry-date">7/4/26</span>
+                <span className="entry-score score-5">8.5/10</span>
+              </div>
+              <p className="entry-text">
+                Honored America by spending another summer abroad. Bruges is not real😮
+              </p>
+            </article>
+
+
             <article className="entry-item">
               <div className="entry-meta">
                 <span className="entry-date">7/3/26</span>
